@@ -288,7 +288,7 @@ function FindBook({ bookFacade }) {
         <button onClick={handleSubmit}>Find Book</button>
       </form>
       {bookContent}
-      <div>{editingBookContent}</div>
+      {editingBookContent}
     </div>
   );
 }
