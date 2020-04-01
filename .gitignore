@@ -25,3 +25,17 @@
 /Mandag/react-and-router-getting-startet/npm-debug.log*
 /Mandag/react-and-router-getting-startet/yarn-debug.log*
 /Mandag/react-and-router-getting-startet/yarn-error.log*
+
+/Onsdag/react-jwt-auth-demo/node_modules
+/Onsdag/react-jwt-auth-demo/.pnp
+/Onsdag/react-jwt-auth-demo/.pnp.js
+/Onsdag/react-jwt-auth-demo/coverage
+/Onsdag/react-jwt-auth-demo/build
+/Onsdag/react-jwt-auth-demo/.DS_Store
+/Onsdag/react-jwt-auth-demo/.env.local
+/Onsdag/react-jwt-auth-demo/.env.development.local
+/Onsdag/react-jwt-auth-demo/.env.test.local
+/Onsdag/react-jwt-auth-demo/.env.production.local
+/Onsdag/react-jwt-auth-demo/npm-debug.log*
+/Onsdag/react-jwt-auth-demo/yarn-debug.log*
+/Onsdag/react-jwt-auth-demo/yarn-error.log*
