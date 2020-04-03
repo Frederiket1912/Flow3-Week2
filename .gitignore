@@ -39,3 +39,17 @@
 /Onsdag/react-jwt-auth-demo/npm-debug.log*
 /Onsdag/react-jwt-auth-demo/yarn-debug.log*
 /Onsdag/react-jwt-auth-demo/yarn-error.log*
+
+/Torsdag/react-jokefetcher-frontend/node_modules
+/Torsdag/react-jokefetcher-frontend/.pnp
+/Torsdag/react-jokefetcher-frontend/.pnp.js
+/Torsdag/react-jokefetcher-frontend/coverage
+/Torsdag/react-jokefetcher-frontend/build
+/Torsdag/react-jokefetcher-frontend/.DS_Store
+/Torsdag/react-jokefetcher-frontend/.env.local
+/Torsdag/react-jokefetcher-frontend/.env.development.local
+/Torsdag/react-jokefetcher-frontend/.env.test.local
+/Torsdag/react-jokefetcher-frontend/.env.production.local
+/Torsdag/react-jokefetcher-frontend/npm-debug.log*
+/Torsdag/react-jokefetcher-frontend/yarn-debug.log*
+/Torsdag/react-jokefetcher-frontend/yarn-error.log*
