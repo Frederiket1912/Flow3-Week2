@@ -1,3 +1,5 @@
+import facade from "./authFacade";
+
 function jokeFacade() {
   function handleHttpErrors(res) {
     if (!res.ok) {
@@ -7,9 +9,11 @@ function jokeFacade() {
   }
 
   const getJokes = () => {
-    return fetch("http://localhost:8080/jokeFetcher/api/jokes").then(
-      handleHttpErrors
-    );
+    const options = facade.makeOptions("GET", true);
+    return fetch(
+      "http://localhost:8080/securitystarter/api/jokes",
+      options
+    ).then(handleHttpErrors);
   };
 
   return {

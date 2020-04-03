@@ -1,3 +1,5 @@
+import facade from "./authFacade";
+
 function scrapeFacade() {
   function handleHttpErrors(res) {
     if (!res.ok) {
@@ -7,9 +9,11 @@ function scrapeFacade() {
   }
 
   const getScrape = () => {
-    return fetch("http://localhost:8080/webscraper/api/scrape").then(
-      handleHttpErrors
-    );
+    const options = facade.makeOptions("GET", true);
+    return fetch(
+      "http://localhost:8080/securitystarter/api/scrape",
+      options
+    ).then(handleHttpErrors);
   };
 
   return {
