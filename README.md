@@ -2,9 +2,10 @@
 Ugens opgaver er indelt i mapper efter hvilken dag de er givet for.
 Opgaven om nested routes fra mandag er lavet i projektet "react-router-getting-started".
 
-*Gennemgang af læringsmål:*
+**Gennemgang af læringsmål:**
 
-*Mandag:*
+**Mandag:**
+
 1)Kunne forklare om behovet for og begrebet routing i en SPA
 - Routing giver mulighed for i en SPA i forskellige dele med en route, altså en url, til hver del. Det betyder at hvis man vil linke folk til en bestemt del af ens side, så kan man det.
 
